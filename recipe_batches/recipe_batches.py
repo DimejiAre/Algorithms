@@ -11,7 +11,6 @@ def recipe_batches(recipe, ingredients):
     current_batch = ingredients[k] // v
     if not num_of_batches and (current_batch >= 1):
       num_of_batches = current_batch
-    print(current_batch)
     if 0 < current_batch < num_of_batches:
       num_of_batches = current_batch
   
